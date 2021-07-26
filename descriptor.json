@@ -29,31 +29,7 @@
     }
   ],
   "output": [
-    {
-      "name": "pathParams",
-      "type": "params",
-      "description": "The path parameters (e.g., 'id' in http://.../pet/:id/name )"
-    },
-    {
-      "name": "queryParams",
-      "type": "params",
-      "description": "The query parameters (e.g., 'id' in http://.../pet?id=someValue )"
-    },
-    {
-      "name": "headers",
-      "type": "params",
-      "description": "The HTTP header parameters"
-    },
-    {
-      "name": "method",
-      "type": "string",
-      "description": "The HTTP method used"
-    },
-    {
-      "name": "content",
-      "type": "any",
-      "description": "The content of the request"
-    }
+    
   ],
   "reply": [
     {
