@@ -4,56 +4,6 @@
   "version": "0.10.0",
   "title": "Receive HTTP Message",
   "description": "Simple REST Trigger",
-  "homepage": "https://github.com/project-flogo/contrib/tree/master/trigger/rest",
-  "settings": [
-    {
-      "name": "port",
-      "type": "int",
-      "required": true,
-      "description": "The port to listen on"
-    },
-    {
-      "name":"enableTLS",
-      "type":"boolean",
-      "description": "Enable TLS on the server"
-    },
-    {
-      "name": "certFile",
-      "type":"string",
-      "description": "The path to PEM encoded server certificate"
-    },
-    {
-      "name": "keyFile",
-      "type":"string",
-      "description": "The path to PEM encoded server key"
-    }
-  ],
-  "output": [
-    
-  ],
-  "reply": [
-    {
-      "name": "code",
-      "type": "int",
-      "description": "The http code to reply with"
-    },
-    {
-      "name": "data",
-      "type": "any",
-      "description": "The data to reply with"
-    },
-    {
-      "name": "headers",
-      "type": "params",
-      "description": "The HTTP response headers"
-    },
-    {
-      "name": "cookies",
-      "type": "array",
-      "description": "The response cookies, adds `Set-Cookie` headers"
-    }
-  ],
-  "handler": {
-    
-  }
+  "homepage": "https://github.com/afarooqi8/rest",
+  
 }
