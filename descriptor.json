@@ -54,20 +54,6 @@
     }
   ],
   "handler": {
-    "settings": [
-      {
-        "name": "method",
-        "type": "string",
-        "required" : true,
-        "allowed" : ["GET", "POST", "PUT", "PATCH", "DELETE"],
-        "description": "The HTTP method (ie. GET,POST,PUT,PATCH or DELETE)"
-      },
-      {
-        "name": "path",
-        "type": "string",
-        "required" : true,
-        "description": "The resource path"
-      }
-    ]
+    
   }
 }
